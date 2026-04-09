@@ -18,6 +18,8 @@ Multiple Models used on the TonIOT dataset
 | 23BCE11009 | MANIKYA NARIYAL          |
 | 23BCE11024 | AADYA CHAUHAN            |
 
+All Members Contributed
+
 ## Project Summary
 
 This project analyzes normal Windows telemetry data from the TON_IoT dataset to build a clean machine learning pipeline for:
@@ -34,13 +36,13 @@ The goal is to compare multiple machine learning approaches and document a repro
 - Source: TON_IoT (Windows telemetry subset)
 - Local data path: data/
 - Files used:
-    - win7_normal_1.csv
-    - win7_normal_2.csv
-    - win7_normal_3.csv
-    - win10_normal_1.csv
-    - win10_normal_2.csv
-    - win10_normal_3.csv
-    - win10_normal_4.csv
+  - win7_normal_1.csv
+  - win7_normal_2.csv
+  - win7_normal_3.csv
+  - win10_normal_1.csv
+  - win10_normal_2.csv
+  - win10_normal_3.csv
+  - win10_normal_4.csv
 
 ## Repository Structure
 
@@ -61,20 +63,20 @@ FDS/
 ## Main Notebooks
 
 - Copy_of_Data_Science.ipynb
-    - Combines raw CSV files
-    - Cleans column names and timestamps
-    - Handles missing values and constant features
-    - Performs PCA and Truncated SVD for feature reduction
+  - Combines raw CSV files
+  - Cleans column names and timestamps
+  - Handles missing values and constant features
+  - Performs PCA and Truncated SVD for feature reduction
 - decision_tree_model.ipynb
-    - Decision Tree based modeling and evaluation
+  - Decision Tree based modeling and evaluation
 - Random_Forest_model.ipynb
-    - Random Forest model training and comparison
+  - Random Forest model training and comparison
 - logistic_regression_model.ipynb
-    - Logistic Regression baseline and analysis
+  - Logistic Regression baseline and analysis
 - linear_regression_model.ipynb
-    - Linear Regression experiments
+  - Linear Regression experiments
 - KNN_Anomaly_detection_model.ipynb
-    - KNN-based anomaly detection experiments
+  - KNN-based anomaly detection experiments
 
 ## Data Processing Workflow
 
