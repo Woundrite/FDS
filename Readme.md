@@ -36,13 +36,13 @@ The goal is to compare multiple machine learning approaches and document a repro
 - Source: TON_IoT (Windows telemetry subset)
 - Local data path: data/
 - Files used:
-  - win7_normal_1.csv
-  - win7_normal_2.csv
-  - win7_normal_3.csv
-  - win10_normal_1.csv
-  - win10_normal_2.csv
-  - win10_normal_3.csv
-  - win10_normal_4.csv
+    - win7_normal_1.csv
+    - win7_normal_2.csv
+    - win7_normal_3.csv
+    - win10_normal_1.csv
+    - win10_normal_2.csv
+    - win10_normal_3.csv
+    - win10_normal_4.csv
 
 ## Repository Structure
 
@@ -63,20 +63,20 @@ FDS/
 ## Main Notebooks
 
 - Copy_of_Data_Science.ipynb
-  - Combines raw CSV files
-  - Cleans column names and timestamps
-  - Handles missing values and constant features
-  - Performs PCA and Truncated SVD for feature reduction
+    - Combines raw CSV files
+    - Cleans column names and timestamps
+    - Handles missing values and constant features
+    - Performs PCA and Truncated SVD for feature reduction
 - decision_tree_model.ipynb
-  - Decision Tree based modeling and evaluation
+    - Decision Tree based modeling and evaluation
 - Random_Forest_model.ipynb
-  - Random Forest model training and comparison
+    - Random Forest model training and comparison
 - logistic_regression_model.ipynb
-  - Logistic Regression baseline and analysis
+    - Logistic Regression baseline and analysis
 - linear_regression_model.ipynb
-  - Linear Regression experiments
+    - Linear Regression experiments
 - KNN_Anomaly_detection_model.ipynb
-  - KNN-based anomaly detection experiments
+    - KNN-based anomaly detection experiments
 
 ## Data Processing Workflow
 
@@ -121,12 +121,6 @@ pip install pandas numpy matplotlib scikit-learn jupyter
 3. Run Copy_of_Data_Science.ipynb first to prepare cleaned and reduced data.
 4. Run model notebooks one by one for training and evaluation.
 5. Compare metrics and observations across models.
-
-## Academic Submission Notes
-
-- Ensure all team member names and IDs are added in the Team section.
-- Keep outputs and notebook results up to date before submission.
-- Export notebooks to PDF/HTML if required by your instructor.
 
 ## Acknowledgment
 
