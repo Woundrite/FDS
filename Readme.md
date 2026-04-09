@@ -48,7 +48,7 @@ The goal is to compare multiple machine learning approaches and document a repro
 
 ```
 FDS/
-|- Copy_of_Data_Science.ipynb
+|- preprocessing_svd_pca.ipynb
 |- decision_tree_model.ipynb
 |- KNN_Anomaly_detection_model.ipynb
 |- linear_regression_model.ipynb
@@ -62,7 +62,7 @@ FDS/
 
 ## Main Notebooks
 
-- Copy_of_Data_Science.ipynb
+- preprocessing_svd_pca.ipynb
     - Combines raw CSV files
     - Cleans column names and timestamps
     - Handles missing values and constant features
@@ -118,7 +118,7 @@ pip install pandas numpy matplotlib scikit-learn jupyter
 
 1. Open this project folder in VS Code, Jupyter, or Colab.
 2. Ensure data files exist in data/.
-3. Run Copy_of_Data_Science.ipynb first to prepare cleaned and reduced data.
+3. Run preprocessing_svd_pca.ipynb first to prepare cleaned and reduced data.
 4. Run model notebooks one by one for training and evaluation.
 5. Compare metrics and observations across models.
 
