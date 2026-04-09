@@ -49,10 +49,12 @@ The goal is to compare multiple machine learning approaches and document a repro
 ```
 FDS/
 |- preprocessing_svd_pca.ipynb
+|- data_visualizations.ipynb
 |- decision_tree_model.ipynb
 |- KNN_Anomaly_detection_model.ipynb
 |- linear_regression_model.ipynb
 |- logistic_regression_model.ipynb
+|- naIve_bayes_model.ipynb
 |- Random_Forest_model.ipynb
 |- Readme.md
 |- data/
@@ -73,10 +75,29 @@ FDS/
     - Random Forest model training and comparison
 - logistic_regression_model.ipynb
     - Logistic Regression baseline and analysis
+- naIve_bayes_model.ipynb
+    - Gaussian Naive Bayes load-state classification and uncertainty analysis
 - linear_regression_model.ipynb
     - Linear Regression experiments
 - KNN_Anomaly_detection_model.ipynb
     - KNN-based anomaly detection experiments
+
+## Latest Model Results (Load State Classification)
+
+The project now includes confusion matrix, ROC, and Precision-Recall visualizations for all classification notebooks.
+
+| Model                | Test Accuracy | CV Accuracy (if available) | ROC AUC (Active / Idle / Stressed)                               |
+| -------------------- | ------------- | -------------------------- | ---------------------------------------------------------------- |
+| Decision Tree        | 0.9366        | -                          | Added in notebook (latest cell not re-executed in current state) |
+| Logistic Regression  | 0.8839        | 0.8846 +/- 0.0048          | 0.954 / 0.999 / 0.952                                            |
+| Random Forest        | 0.9341        | 0.9286 +/- 0.0047          | 0.985 / 1.000 / 0.984                                            |
+| Gaussian Naive Bayes | 0.5628        | -                          | 0.702 / 0.966 / 0.737                                            |
+
+Naive Bayes PR values (AP) from latest run:
+
+- Active: 0.686
+- Idle: 0.401
+- Stressed: 0.467
 
 ## Data Processing Workflow
 
